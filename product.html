@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products | Handalee Shop 🌵🌿</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400&family=Lora&family=Nanum+Gothic&family=Playfair+Display:ital,wght@0,400;1,400;1,500&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!----first section of webpage-->
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" width="200px" />
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+        <img src="images/bag.svg" width="18px" height="30px" />
+        <img src="images/menu.svg" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+
+    <!-----featured products----->
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/plant1.jpg" />
+          <h4>Giant Leaf</h4>
+          <p>$60.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/featured1.jpg" />
+          <h4>Wide Vase</h4>
+          <p>$55.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/featured3.jpg" />
+          <h4>Monstera</h4>
+          <p>$70.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/featured2.jpg" />
+          <h4>Hanging Plant</h4>
+          <p>$40.00</p>
+        </div>
+      </div>
+    </div>
+    <!---------shop/studio--------->
+    <div class="hours">
+      <div class="hours-bg">
+        <div class="small-container">
+          <div class="hours-description">
+            <h1>SHOP / STUDIO</h1>
+            <p>
+              Address:
+              <br />
+              1111 West 4th Ave.
+              <br />
+              Vancouver, BC V1Z 1Z1
+              <br />
+              <br />
+              Outdoor flower bar now open.
+              <br />
+              Pre-order for pick-up or delivery.
+              <br />
+              <br />
+              Hours:
+              <br />
+              Tue, 2pm to 5pm
+              <br />
+              Wed-Fri, 10am to 5pm
+              <br />
+              Sat, 10am to 4pm
+              <br />
+              <br />
+              <a href="">Directions &#10141;</a>
+            </p>
+          </div>
+          <div class="footer">
+            <div class="contact">CONTACT</div>
+            <br />
+            <div class="contact-details">
+              Ph: <a href="">(604)111-1111</a>
+              <br />
+              General Inquiries: <a href="">hello@handalee.ca</a>
+              <br />
+              Order Inquiries: <a href="">order@handalee.ca</a>
+              <br />
+              Events & Weddings: <a href="">event@handalee.ca</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------js for toggle menu------->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
