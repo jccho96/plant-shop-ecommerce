@@ -188,6 +188,40 @@ h4 {
   margin-left: 20px;
   display: none;
 }
+/*------------all products page ----------*/
+.row-2 {
+  justify-content: space-between;
+  margin: 100px 20px 50px;
+}
+select {
+  border: 1px solid#555;
+  padding: 5px;
+}
+select:focus {
+  outline: none;
+}
+.row-2 h2 {
+  font-family: "Heebo", sans-serif;
+  color: #555;
+}
+.page-btn {
+  margin: 0px 20px 50px;
+}
+.page-btn span {
+  display: inline-block;
+  border: 1px solid #555;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  font-family: "Heebo", sans-serif;
+  font-size: 10px;
+}
+.page-btn span:hover {
+  background: #555;
+  color: #fff;
+}
 /*-------media query for menu --------*/
 
 @media only screen and (max-width: 800px) {
