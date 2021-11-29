@@ -61,7 +61,7 @@ p {
   font-weight: 400;
   color: #fff;
 }
-.btn {
+.description .btn {
   display: inline-block;
   background: #d5d8c3;
   color: #fff;
@@ -222,6 +222,67 @@ select:focus {
   background: #555;
   color: #fff;
 }
+
+/*------single product details ------*/
+.row-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn-3 {
+  display: inline-block;
+  background: #d5d8c3;
+  color: #fff;
+  padding: 8px 17px;
+  margin: 20px 0;
+  border-radius: 30px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 15px;
+  transition: background 0.2s;
+}
+
+.btn-3:hover {
+  background: #acbd8a;
+}
+
+.single-product {
+  margin-top: 80px;
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 135px;
+}
+.single-product .col-2 img {
+  padding: 0;
+  max-width: 350px;
+}
+.single-product .col-2 {
+  padding: 20px;
+}
+.single-product h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.single-product h3 {
+  font-family: "Heebo", sans-serif;
+}
+.btn-3:hover {
+  background: #acbd8a;
+}
+.single-product input {
+  font-family: "Heebo", sans-serif;
+  width: 40px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #555;
+  color: #555;
+}
+input:focus {
+  outline: none;
+}
+
 /*-------media query for menu --------*/
 
 @media only screen and (max-width: 800px) {
